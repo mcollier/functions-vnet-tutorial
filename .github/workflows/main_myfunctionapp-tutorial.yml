@@ -39,5 +39,5 @@ jobs:
         app-name: 'myfunctionapp-tutorial'
         slot-name: 'production'
         package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c72885b0db044ca2953abf58650ed24b }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_cc022956baeb45aeb02b586e24b79709 }}
   
